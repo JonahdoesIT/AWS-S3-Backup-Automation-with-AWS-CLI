@@ -29,6 +29,7 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 ![1 AWS CLI](https://github.com/user-attachments/assets/97faf379-704c-4556-8869-23a1bb048582)
 ![2 AWS CLI FINISH SETUP](https://github.com/user-attachments/assets/5affb7c7-5c1f-40ac-83ac-f29f3e6e5e46)
 
+###✅ Step 2: Configure AWS CLI
 
 2. Install using the wizard and verify with:
 aws --version
