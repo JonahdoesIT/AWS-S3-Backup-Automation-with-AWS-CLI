@@ -18,3 +18,15 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 - Git Bash (for Unix-like terminal on Windows)
 - PowerShell or Terminal
 - Optional: AWS Console for verification
+## 🚀 Step-by-Step Walkthrough
+
+---
+
+### ✅ Step 1: Install AWS CLI
+
+1. Download the AWS CLI v2 for Windows:  
+   [https://awscli.amazonaws.com/AWSCLIV2.msi](https://awscli.amazonaws.com/AWSCLIV2.msi)
+
+2. Install using the wizard and verify with:
+```bash
+aws --version
