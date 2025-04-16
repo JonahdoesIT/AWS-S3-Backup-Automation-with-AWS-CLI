@@ -10,3 +10,11 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 - 🧾 Script setup & execution – `/screenshots/script-execution/`
 - 🔍 S3 verification (CLI & browser) – `/screenshots/s3-verification/`
 - 🧹 Cleanup – `/screenshots/cleanup/`
+## 🛠️ Tools & Technologies Used
+
+- AWS CLI (v2)
+- Amazon S3
+- Bash scripting
+- Git Bash (for Unix-like terminal on Windows)
+- PowerShell or Terminal
+- Optional: AWS Console for verification
