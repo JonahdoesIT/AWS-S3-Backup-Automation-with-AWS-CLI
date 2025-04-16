@@ -31,4 +31,6 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 
 
 2. Install using the wizard and verify with:
-```bash
+aws --version
+![3 AWS CLI DOWNLOAD CONFIRM](https://github.com/user-attachments/assets/3042b03d-05aa-4526-817d-4850a07fc031)
+
