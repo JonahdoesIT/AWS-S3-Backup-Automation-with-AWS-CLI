@@ -62,3 +62,8 @@ $HOME\.aws\credentials
 ⚠️ Important: These credentials are saved in plain text. Never upload this file to GitHub. Use .gitignore to exclude it if needed.
 
 ## 📦 Step 3: S3 Bucket Creation
+To create the S3 bucket for file backups, use the AWS CLI:
+aws s3 mb s3://jarvis-s3-backup-lab-2025 
+![5 AWS s3 Bucket creation](https://github.com/user-attachments/assets/5731ffaa-7f7c-420e-95c1-3f8ab20fcb3e)
+We can confirm the bucket was created by running s3 ls
+![6 CONFIRM S3 BUCKET WAS CREATED](https://github.com/user-attachments/assets/6072231c-5bca-4351-802f-844848d9ab19)
