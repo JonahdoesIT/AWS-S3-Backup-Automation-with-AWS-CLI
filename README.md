@@ -92,3 +92,7 @@ This step creates a Bash script that automates:
 - Uploading files from the files-to-backup folder
 - Verifying uploads
 - Writing a report to upload_report.txt
+![7Create script in notepad](https://github.com/user-attachments/assets/8ae56fed-7680-475d-aa78-2f938cfb0864)
+![8 Save script](https://github.com/user-attachments/assets/fe38ba3a-c0a1-427a-820b-270cd6341fc0)
+After saving our script we will need to change the permissions to make it executable.
+![9 Chmod and run script](https://github.com/user-attachments/assets/0966ad2d-04f7-4324-a4f9-9a6b2030b7b8)
