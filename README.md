@@ -130,3 +130,31 @@ This command returns the Access Control List (ACL), which includes:
 ✅Any grants given to other users or groups
 
 ✅Whether the bucket is private or public
+
+## 🧹 Step 8: Clean Up AWS Resources
+To avoid unwanted charges and keep our AWS environment clean, we will delete the resources you created during this lab.
+✅ 1. Delete the Files From the S3 Bucket
+
+This command will remove all files you uploaded:
+aws s3 rm s3://jarvis-s3-backup-2025 --recursive
+
+✅2. After removing the files time to delete the bucket:
+aws s3 rb s3://jarvis-s3-backup-2025
+
+![14 remove files and bucket- cleanup](https://github.com/user-attachments/assets/757c6d4a-f12e-4c75-9493-8fadc5bfa610)
+
+## 🧾 Step 9: Final Summary
+
+This project demonstrates the automation of secure file backups to Amazon S3 using Bash and the AWS CLI. Key skills covered:
+
+---
+
+### 🧠 What I Learned
+
+- How to install and configure AWS CLI on Windows
+- How to create and manage S3 buckets using the CLI
+- How to automate cloud operations with Bash scripting
+- How to verify security settings (ACL & bucket policy)
+- How to validate file uploads via CLI and browser
+- How to responsibly clean up cloud resources to avoid charges
+
