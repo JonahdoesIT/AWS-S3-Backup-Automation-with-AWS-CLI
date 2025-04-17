@@ -145,7 +145,7 @@ aws s3 rb s3://jarvis-s3-backup-2025
 
 ## 🧾 Step 9: Final Summary
 
-This project demonstrates the automation of secure file backups to Amazon S3 using Bash and the AWS CLI. Key skills covered:
+This project demonstrates the automation of secure file backups to Amazon S3 using Bash and the AWS CLI.
 
 ---
 
