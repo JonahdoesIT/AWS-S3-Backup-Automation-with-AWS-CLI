@@ -67,3 +67,7 @@ aws s3 mb s3://jarvis-s3-backup-lab-2025
 ![5 AWS s3 Bucket creation](https://github.com/user-attachments/assets/5731ffaa-7f7c-420e-95c1-3f8ab20fcb3e)
 We can confirm the bucket was created by running s3 ls
 ![6 CONFIRM S3 BUCKET WAS CREATED](https://github.com/user-attachments/assets/6072231c-5bca-4351-802f-844848d9ab19)
+
+## 📁 Step 4: Create Local Files to Upload
+To simulate a real backup scenario, we'll create a directory with a couple of test files. These will later be uploaded to the S3 bucket.
+![7 MKDIR SAMPLE CONTENT](https://github.com/user-attachments/assets/93d55aed-af16-4b75-8d9b-fe82a0215aba)
