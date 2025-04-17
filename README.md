@@ -2,7 +2,7 @@
 ![aws front poage](https://github.com/user-attachments/assets/85e41a39-9bd0-45f7-9085-b4d01634603f)
 
 # AWS-S3-Backup-Automation-with-AWS-CLI
-This project automates the backup of local files to an AWS S3 bucket using a Bash script and the AWS Command Line Interface (CLI). It checks the bucket’s access level, uploads files, logs results to a report, and includes resource cleanup.
+
 ## 🧭 Overview
 
 This project demonstrates how to automate secure file backups to Amazon S3 using the AWS CLI and Bash scripting. It walks through configuring the AWS CLI, creating and verifying S3 buckets, writing a script to upload files and validate results, and cleaning up resources to avoid costs.
