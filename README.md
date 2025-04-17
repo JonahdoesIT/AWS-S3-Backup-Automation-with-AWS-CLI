@@ -61,3 +61,4 @@ You can view the contents with powershell
 $HOME\.aws\credentials
 ⚠️ Important: These credentials are saved in plain text. Never upload this file to GitHub. Use .gitignore to exclude it if needed.
 
+## 📦 Step 3: S3 Bucket Creation
