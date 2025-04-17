@@ -35,13 +35,13 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 ## 🚀 Step 2: Configure AWS CLI Credentials
 
 Once the AWS CLI is installed, configure it with your AWS account credentials so you can manage resources from the command line.
-### 1. Open Your Terminal
+### ✅1. Open Your Terminal
 
 - On Windows: Open **Command Prompt**, **PowerShell**, or **Windows Terminal**.
 - On Mac: Open **Terminal**.
 - On Linux: Open your preferred terminal app.
 
-### 2. Run the Configuration Command
+### ✅2. Run the Configuration Command
 
 Type: aws configure
 ![4 AWS CLI CONFIGURE](https://github.com/user-attachments/assets/4953d688-5e5c-440e-b758-c9506204b532)
