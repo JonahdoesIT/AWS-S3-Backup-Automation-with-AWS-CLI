@@ -22,16 +22,41 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 
 ---
 
-### ✅ Step 1: Install AWS CLI
+### 🛠️ Step 1: Install AWS CLI
 
 1. Download the AWS CLI v2 for Windows:  
    [https://awscli.amazonaws.com/AWSCLIV2.msi](https://awscli.amazonaws.com/AWSCLIV2.msi)
 ![1 AWS CLI](https://github.com/user-attachments/assets/97faf379-704c-4556-8869-23a1bb048582)
+2. Run the installer and follow the prompts to complete installation.
 ![2 AWS CLI FINISH SETUP](https://github.com/user-attachments/assets/5affb7c7-5c1f-40ac-83ac-f29f3e6e5e46)
-
-### ✅ Step 2: Configure AWS CLI
-
-2. Install using the wizard and verify with:
-aws --version
+3. Verify installation in the terminal:
+   aws --version
 ![3 AWS CLI DOWNLOAD CONFIRM](https://github.com/user-attachments/assets/3042b03d-05aa-4526-817d-4850a07fc031)
+## 🚀 Step 2: Configure AWS CLI Credentials
+
+Once the AWS CLI is installed, configure it with your AWS account credentials so you can manage resources from the command line.
+### 1. Open Your Terminal
+
+- On Windows: Open **Command Prompt**, **PowerShell**, or **Windows Terminal**.
+- On Mac: Open **Terminal**.
+- On Linux: Open your preferred terminal app.
+
+### 2. Run the Configuration Command
+
+Type: aws configure
+![4 AWS CLI CONFIGURE](https://github.com/user-attachments/assets/4953d688-5e5c-440e-b758-c9506204b532)
+You will need your 
+-Access key ID
+-Secret Access key
+-Default region
+-Default output format
+When you run "aws configure", your credentials and settings are saved to:
+
+- **Windows:**
+C:\Users\<YourUsername>\.aws\credentials
+You can view the contents with:
+
+powershell
+type $HOME\.aws\credentials
+⚠️ Important: These credentials are saved in plain text. Never upload this file to GitHub. Use .gitignore to exclude it if needed.
 
