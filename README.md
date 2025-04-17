@@ -2,7 +2,6 @@
 This project automates the backup of local files to an AWS S3 bucket using a Bash script and the AWS Command Line Interface (CLI). It checks the bucket’s access level, uploads files, logs results to a report, and includes resource cleanup.
 ## 📸 Screenshots
 
-To enhance clarity and show your workflow, include screenshots for each of the steps below:
 
 - 🧑‍💻 AWS CLI configuration – `/screenshots/aws-cli-setup/`
 - 🪣 S3 bucket creation & listing – `/screenshots/s3-bucket-creation/`
@@ -110,3 +109,24 @@ This file contains:
 
 ✅ A verification list showing the uploaded files in the S3 bucket
 ![10 script ran successfuly  output file](https://github.com/user-attachments/assets/2b581d23-933a-4c6d-b1c3-647c8c743d82)
+
+## 🔍 Step 7: Validate in AWS Console & Test Public Access
+After running the backup script and generating upload_report.txt, use these steps to manually verify the files in AWS and test access behavior.
+✅ 1. List Files in Your S3 Bucket
+
+To confirm the files are really there:
+aws s3 ls s3://jarvis-s3-backup-lab-2025
+![11 confirm files were uploaded via cli](https://github.com/user-attachments/assets/d3c76de7-5009-4b1d-94d8-69bd391faff3)
+
+✅ 2. Check Bucket ACL (Access Control List)
+Use the following command to review the permissions assigned to your S3 bucket: aws s3api get-bucket-acl --bucket jarvis-s3-backup-lab-2025
+
+![12 s3 access = private](https://github.com/user-attachments/assets/a4a38160-8bce-4284-b71c-3612b6d27092)
+
+This command returns the Access Control List (ACL), which includes:
+
+✅The bucket owner
+
+✅Any grants given to other users or groups
+
+✅Whether the bucket is private or public
