@@ -21,7 +21,7 @@ The lab simulates a real-world use case where files from an on-premises environm
   - Logging results to a report
   - Verifying file existence in the cloud
 - ✅ Understand and interpret S3 bucket ACLs and policies
-- ✅ Test public access to files via browser
+- ✅ Test public access to files 
 - ✅ Delete cloud and local resources to avoid charges and demonstrate good cloud hygiene
 
 
