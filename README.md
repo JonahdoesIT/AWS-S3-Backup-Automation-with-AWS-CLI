@@ -75,7 +75,7 @@ To simulate a real backup scenario, we'll create a directory with a couple of te
 Open your terminal (PowerShell or Command Prompt) and run:
 mkdir files-to-backup
 
-###✅ 2. Create Sample Files in That Directory
+✅ 2. Create Sample Files in That Directory
 Use these commands to add content to the files:
 
 bash
