@@ -1,14 +1,30 @@
+
+![aws front poage](https://github.com/user-attachments/assets/85e41a39-9bd0-45f7-9085-b4d01634603f)
+
 # AWS-S3-Backup-Automation-with-AWS-CLI
 This project automates the backup of local files to an AWS S3 bucket using a Bash script and the AWS Command Line Interface (CLI). It checks the bucket’s access level, uploads files, logs results to a report, and includes resource cleanup.
-## 📸 Screenshots
+## 🧭 Overview
 
+This project demonstrates how to automate secure file backups to Amazon S3 using the AWS CLI and Bash scripting. It walks through configuring the AWS CLI, creating and verifying S3 buckets, writing a script to upload files and validate results, and cleaning up resources to avoid costs.
 
-- 🧑‍💻 AWS CLI configuration – `/screenshots/aws-cli-setup/`
-- 🪣 S3 bucket creation & listing – `/screenshots/s3-bucket-creation/`
-- 📁 Local file creation – `/screenshots/local-files-setup/`
-- 🧾 Script setup & execution – `/screenshots/script-execution/`
-- 🔍 S3 verification (CLI & browser) – `/screenshots/s3-verification/`
-- 🧹 Cleanup – `/screenshots/cleanup/`
+The lab simulates a real-world use case where files from an on-premises environment need to be securely and repeatedly backed up to cloud storage — a common scenario in cloud, DevOps, and cybersecurity roles.
+
+---
+
+## 🎯 Project Objectives
+
+- ✅ Configure AWS CLI on a local machine using access credentials
+- ✅ Create and verify secure S3 buckets via the CLI
+- ✅ Write a Bash script that automates:
+  - Checking bucket permissions (ACL)
+  - Uploading local files to S3
+  - Logging results to a report
+  - Verifying file existence in the cloud
+- ✅ Understand and interpret S3 bucket ACLs and policies
+- ✅ Optionally test public access to files via browser
+- ✅ Delete cloud and local resources to avoid charges and demonstrate good cloud hygiene
+- ✅ Document each step clearly with a professional GitHub layout
+
 ## 🛠️ Tools & Technologies Used
 
 - AWS CLI (v2)
