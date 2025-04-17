@@ -45,11 +45,13 @@ Once the AWS CLI is installed, configure it with your AWS account credentials so
 
 Type: aws configure
 ![4 AWS CLI CONFIGURE](https://github.com/user-attachments/assets/4953d688-5e5c-440e-b758-c9506204b532)
-You will need your 
+You will need your
+
 -Access key ID
 -Secret Access key
 -Default region
 -Default output format
+
 When you run "aws configure", your credentials and settings are saved to:
 
 - **Windows:**
