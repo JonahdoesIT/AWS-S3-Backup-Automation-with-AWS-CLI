@@ -56,9 +56,8 @@ When you run "aws configure", your credentials and settings are saved to:
 
 - **Windows:**
 C:\Users\<YourUsername>\.aws\credentials
-You can view the contents with:
+You can view the contents with powershell
 
-powershell
-type $HOME\.aws\credentials
+$HOME\.aws\credentials
 ⚠️ Important: These credentials are saved in plain text. Never upload this file to GitHub. Use .gitignore to exclude it if needed.
 
