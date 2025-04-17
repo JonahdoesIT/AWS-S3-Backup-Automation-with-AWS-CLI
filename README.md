@@ -98,3 +98,15 @@ After saving our script we will need to change the permissions to make it execut
 ![9 Chmod and run script](https://github.com/user-attachments/assets/0966ad2d-04f7-4324-a4f9-9a6b2030b7b8)
 
 ## 🚀 Step 6: Verify Output
+After running the script with:./s3_backup.sh
+
+You should see terminal output indicating the script has executed successfully, followed by the creation of a file named: upload_report.txt
+
+This file contains:
+
+✅ The current ACL (Access Control List) status of the S3 bucket
+
+✅ A log of each uploaded file (including the source and destination)
+
+✅ A verification list showing the uploaded files in the S3 bucket
+![10 script ran successfuly  output file](https://github.com/user-attachments/assets/2b581d23-933a-4c6d-b1c3-647c8c743d82)
