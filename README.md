@@ -70,4 +70,16 @@ We can confirm the bucket was created by running s3 ls
 
 ## 📁 Step 4: Create Local Files to Upload
 To simulate a real backup scenario, we'll create a directory with a couple of test files. These will later be uploaded to the S3 bucket.
-![7 MKDIR SAMPLE CONTENT](https://github.com/user-attachments/assets/93d55aed-af16-4b75-8d9b-fe82a0215aba)
+### ✅ 1. Create a Local Backup Directory
+
+Open your terminal (PowerShell or Command Prompt) and run:
+mkdir files-to-backup
+✅ 2. Create Sample Files in That Directory
+Use these commands to add content to the files:
+
+bash
+echo Sample content for File 1 > files-to-backup/file1.txt
+echo Sample content for File 2 > files-to-backup/file2.txt
+These simulate basic logs, config files, or document backups
+
+![7 MKDIR SAMPLE CONTENT](https://github.com/user-attachments/assets/b5d4f862-da56-49da-b6b8-e368e187093c)
