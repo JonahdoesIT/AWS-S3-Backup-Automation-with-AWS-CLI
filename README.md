@@ -84,3 +84,11 @@ echo Sample content for File 2 > files-to-backup/file2.txt
 These simulate basic logs, config files, or document backups
 
 ![7 MKDIR SAMPLE CONTENT](https://github.com/user-attachments/assets/b5d4f862-da56-49da-b6b8-e368e187093c)
+
+## 🧾 Step 5: Create the S3 Backup Script
+
+This step creates a Bash script that automates:
+- Verifying if the S3 bucket is public or private
+- Uploading files from the files-to-backup folder
+- Verifying uploads
+- Writing a report to upload_report.txt
