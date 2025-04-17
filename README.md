@@ -85,7 +85,7 @@ These simulate basic logs, config files, or document backups
 
 ![7 MKDIR SAMPLE CONTENT](https://github.com/user-attachments/assets/b5d4f862-da56-49da-b6b8-e368e187093c)
 
-## 🧾 Step 5: Create the S3 Backup Script
+## 🧾 Step 5: Create & Run S3 Backup Script
 
 This step creates a Bash script that automates:
 - Verifying if the S3 bucket is public or private
@@ -96,3 +96,5 @@ This step creates a Bash script that automates:
 ![8 Save script](https://github.com/user-attachments/assets/fe38ba3a-c0a1-427a-820b-270cd6341fc0)
 After saving our script we will need to change the permissions to make it executable.
 ![9 Chmod and run script](https://github.com/user-attachments/assets/0966ad2d-04f7-4324-a4f9-9a6b2030b7b8)
+
+## 🚀 Step 6: Verify Output
