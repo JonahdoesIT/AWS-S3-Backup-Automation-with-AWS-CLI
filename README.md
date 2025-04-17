@@ -24,12 +24,12 @@ To enhance clarity and show your workflow, include screenshots for each of the s
 
 ### 🛠️ Step 1: Install AWS CLI
 
-1. Download the AWS CLI v2 for Windows:  
+✅ 1. Download the AWS CLI v2 for Windows:  
    [https://awscli.amazonaws.com/AWSCLIV2.msi](https://awscli.amazonaws.com/AWSCLIV2.msi)
 ![1 AWS CLI](https://github.com/user-attachments/assets/97faf379-704c-4556-8869-23a1bb048582)
-2. Run the installer and follow the prompts to complete installation.
+✅ 2. Run the installer and follow the prompts to complete installation.
 ![2 AWS CLI FINISH SETUP](https://github.com/user-attachments/assets/5affb7c7-5c1f-40ac-83ac-f29f3e6e5e46)
-3. Verify installation in the terminal:
+✅ 3. Verify installation in the terminal:
    aws --version
 ![3 AWS CLI DOWNLOAD CONFIRM](https://github.com/user-attachments/assets/3042b03d-05aa-4526-817d-4850a07fc031)
 ## 🚀 Step 2: Configure AWS CLI Credentials
